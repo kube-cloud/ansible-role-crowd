@@ -14,6 +14,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Mysql Connector version supported
+_mysql_jdbc_download:
+  8.0.26:
+    url: "https://cdn.mysql.com//Downloads/Connector-J/mysql-connector-java-8.0.26.tar.gz"
+    checksum: "sha1:a3b8e9b3a13cab628373028ceb5ed390eb68d615"
+    dest: "/var/cache/ansible/a3b8e9b3a13cab628373028ceb5ed390eb68d615/mysql-connector-java-8.0.26.tar.gz"
+  5.1.48:
+    url: "https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.48.tar.gz"
+    checksum: "sha1:a8067480d7d7e4a975771e08b48b64de18837341"
+    dest: "/var/cache/ansible/a8067480d7d7e4a975771e08b48b64de18837341/mysql-connector-java-5.1.48.tar.gz"
+
 _postgresql_jdbc_version:
   "42.2": "42.2.23"
 

@@ -14,6 +14,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# MySQL JDBC version.
+mysql_jdbc_version: "5.1.48"
+
+# MySQL JDBC download details.
+mysql_jdbc_download: "{{ _mysql_jdbc_download[mysql_jdbc_version] }}"
+
 # PostgreSQL JDBC release.
 postgresql_jdbc_release: "42.2"
 

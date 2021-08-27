@@ -16,6 +16,11 @@ export JAVA_OPTS
 CATALINA_OPTS=" \
 -Dcrowd.home={{ crowd_home }} \
 "
+
+{% if crowd_custom_agent_path is defined %}
+CATALINA_OPTS="-javaagent:{{ crowd_custom_agent_path }} ${CATALINA_OPTS}"
+{% endif %}
+
 export CATALINA_OPTS
 
 # set the location of the pid file
