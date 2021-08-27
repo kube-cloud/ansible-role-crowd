@@ -18,12 +18,12 @@
 _mysql_jdbc_download:
   8.0.26:
     url: "https://cdn.mysql.com//Downloads/Connector-J/mysql-connector-java-8.0.26.tar.gz"
-    checksum: "sha1:a3b8e9b3a13cab628373028ceb5ed390eb68d615"
-    dest: "/var/cache/ansible/a3b8e9b3a13cab628373028ceb5ed390eb68d615/mysql-connector-java-8.0.26.tar.gz"
+    checksum: "f3eb0f06cf35657a6cf8128b5c83a2c100e54a76ea801f9064e1dbbaa50ec008"
+    dest: "/var/cache/ansible/f3eb0f06cf35657a6cf8128b5c83a2c100e54a76ea801f9064e1dbbaa50ec008/mysql-connector-java-8.0.26.tar.gz"
   5.1.48:
     url: "https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.48.tar.gz"
-    checksum: "sha1:a8067480d7d7e4a975771e08b48b64de18837341"
-    dest: "/var/cache/ansible/a8067480d7d7e4a975771e08b48b64de18837341/mysql-connector-java-5.1.48.tar.gz"
+    checksum: "f845f79acbd34508bfd82059d8cff98121c174e1041ca19441f940e22c13a44f"
+    dest: "/var/cache/ansible/f845f79acbd34508bfd82059d8cff98121c174e1041ca19441f940e22c13a44f/mysql-connector-java-5.1.48.tar.gz"
 
 _postgresql_jdbc_version:
   "42.2": "42.2.23"
