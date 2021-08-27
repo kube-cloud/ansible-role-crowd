@@ -32,3 +32,5 @@ if [ -z "$CATALINA_PID" ] ; then
     fi
 fi
 export CATALINA_PID
+
+sed -i "s/\(<session-timeout>\).*\(<\/session-timeout>\)/\1${SESSION_TIMEOUT:-"{{ crowd_session_timeout }}"}\2/g" ${CROWD_CATALINA}/apache-tomcat/conf/web.xml
