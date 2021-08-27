@@ -17,9 +17,13 @@
 # Mysql Connector version supported
 _mysql_jdbc_download:
   8.0.26:
-    url: "https://cdn.mysql.com//Downloads/Connector-J/mysql-connector-java-8.0.26.tar.gz"
+    url: "https://cdn.mysql.com/Downloads/Connector-J/mysql-connector-java-8.0.26.tar.gz"
     checksum: "f3eb0f06cf35657a6cf8128b5c83a2c100e54a76ea801f9064e1dbbaa50ec008"
     dest: "/var/cache/ansible/f3eb0f06cf35657a6cf8128b5c83a2c100e54a76ea801f9064e1dbbaa50ec008/mysql-connector-java-8.0.26.tar.gz"
+  8.0.22:
+    url: "https://cdn.mysql.com/archives/mysql-connector-java-8.0/mysql-connector-java-8.0.22.tar.gz"
+    checksum: "10e4bbe3269a26a6ee95b6ad8746632b3a4c59cb99320f52b65f455d60db7a62"
+    dest: "/var/cache/ansible/10e4bbe3269a26a6ee95b6ad8746632b3a4c59cb99320f52b65f455d60db7a62/mysql-connector-java-8.0.22.tar.gz"
   5.1.48:
     url: "https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.48.tar.gz"
     checksum: "f845f79acbd34508bfd82059d8cff98121c174e1041ca19441f940e22c13a44f"
