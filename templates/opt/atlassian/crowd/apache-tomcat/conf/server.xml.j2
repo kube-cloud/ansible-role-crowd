@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- {{ ansible_managed }} -->
-<Server port="8020" shutdown="SHUTDOWN">
+<Server port="8005" shutdown="SHUTDOWN">
 
     <Service name="Catalina">
 
@@ -11,8 +11,8 @@
                    maxHttpHeaderSize="8192"
                    maxThreads="150"
                    minSpareThreads="25"
-                   port="8095"
-                   redirectPort="8443"
+                   port="{{ crowd_catalina_connector_port }}"
+                   redirectPort="{{ crowd_catalina_connector_redirect_port }}"
                    useBodyEncodingForURI="true"
                    URIEncoding="UTF-8"
                    compression="on"
