@@ -37,6 +37,8 @@ _postgresql_jdbc_download:
 _crowd_version:
   "4.3": "4.3.5"
   "4.2": "4.2.3"
+  "4.2.2": "4.2.2"
+  "4.2.1": "4.2.1"
 
 _crowd_download:
   "4.3.5":
