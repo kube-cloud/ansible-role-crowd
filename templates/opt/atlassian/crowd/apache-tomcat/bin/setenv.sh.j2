@@ -21,6 +21,10 @@ CATALINA_OPTS=" \
 CATALINA_OPTS="-XX:MaxMetaspaceSize={{ crowd_max_meta_space }} ${CATALINA_OPTS}"
 {% endif %}
 
+{% if crowd_min_meta_space is defined %}
+CATALINA_OPTS="-XX:MetaspaceSize={{ crowd_min_meta_space }} ${CATALINA_OPTS}"
+{% endif %}
+
 {% if crowd_custom_agent_path is defined %}
 CATALINA_OPTS="-javaagent:{{ crowd_custom_agent_path }} ${CATALINA_OPTS}"
 {% endif %}
