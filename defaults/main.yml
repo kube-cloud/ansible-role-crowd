@@ -70,3 +70,6 @@ crowd_jvm_support_recommended_args: >-
 
 # Session timeout (in minutes).
 crowd_session_timeout: "120"
+
+# Manage JVM
+manage_jvm_enabled: true
